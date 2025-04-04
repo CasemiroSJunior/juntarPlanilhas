@@ -9,7 +9,7 @@ coluna_final = 5     # Última coluna a ser lida (A=0, B=1, C=2, D=3, E=4) :: E
 # Se coluna_final = 0, lê até o final do arquivo
 parar_no_vazio = True # True, False. Se True, para na primeira linha vazia encontrada
 colunas = ["ID", "NOME", "X", "Y", "Z"] # Defina os nomes das colunas conforme necessário 
-nome_arquivo_saida = "planilha_junta.xlsx" # Nome do arquivo de saída
+nome_arquivo_saida = "planilha_junta" # Nome do arquivo de saída
 
 
 # Chama a função para juntar as planilhas
